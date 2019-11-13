@@ -1,5 +1,5 @@
 {
-  "name": "jansenfelipe/omr",
+  "name": "gontran/omr",
   "description": "Optical Mark Recognition from PHP",
   "type": "library",
   "license": "MIT",
@@ -7,6 +7,10 @@
     {
       "name": "Jansen Felipe",
       "email": "jansen.felipe@gmail.com"
+    },
+    {
+        "name": "Geoffroy de Corbiac",
+        "email": "geoffroydecorbiac@gmail.com"
     }
   ],
   "keywords": [
