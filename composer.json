@@ -16,12 +16,16 @@
   "keywords": [
     "omr",
     "optical mark recognition",
-    "survey"
+    "survey",
+    "barcode",
+    "zbar",
+    "qrcode"
   ],
   "require": {
     "php": "7.*",
     "ext-imagick": "*",
-    "symfony/console": "2.7.*"
+    "symfony/console": "2.7.*",
+    "robbiep/zbar-qrdecoder": "dev-master"
   },
   "bin": ["bin/omr"],
   "require-dev": {
