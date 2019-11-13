@@ -11,6 +11,7 @@ use JansenFelipe\OMR\Targets\TextTarget;
 
 class MapJson implements Map
 {
+    private $name;
     private $limits;
     private $targets;
 
@@ -28,8 +29,19 @@ class MapJson implements Map
         $json = file_get_contents($pathJson);
         $decoded = json_decode($json, true);
 
+        $this->name = $decoded['name'];
         $this->limits = $decoded['limits'];
         $this->targets = $decoded['targets'];
+    }
+
+    /**
+     * Name of the map
+     *
+     * @return string
+     */
+    public function getName()
+    {
+        return $this->name;
     }
 
     /**

@@ -8,6 +8,13 @@ interface Map
 {
 
     /**
+     * Name of the map
+     *
+     * @return string
+     */
+    public function getName();
+
+    /**
      * Most point to the top/left
      *
      * @return Point
